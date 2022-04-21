@@ -10,7 +10,7 @@ function genero() {
   if((edad >= 65 && genero == "hombre") || ((edad >=60 && genero == "mujer")) ) {
       alert("La edad ingresada es compatible para la jubilacion para tu genero seleccionado :" +genero)
   }
-  if((edad <= 65 && genero == "hombre") || ((edad <=60 && genero == "mujer")) ) {
+  if((edad < 65 && genero == "hombre") || ((edad < 60 && genero == "mujer")) ) {
     alert("La edad ingresada no es compatible para la jubilacion , para tu genero seleccionado :"+genero)
 }
 
